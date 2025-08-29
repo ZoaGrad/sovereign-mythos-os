@@ -140,8 +140,5 @@ if __name__ == "__main__":
         import torch
     except ImportError:
         print("PyTorch is not installed. Please run 'pip install torch'.")
-        # Add torch to requirements.txt
-        with open('requirements.txt', 'a') as f:
-            f.write('\ntorch')
     else:
         run_ezkl_demo()
