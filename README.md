@@ -39,6 +39,9 @@ For deep dives, check /docs or the blueprint in /examples.
 ## Contributing
 Sovereign ethos: Fork, contribute PRs, or issue red-team feedback. No DCO required—meritocracy over bureaucracy. See issues for tasks like "Implement zkML adapter for RISC0".
 
+## Security
+We take security seriously. Please see our [Security Policy](SECURITY.md) for details on our responsible disclosure process and to see our risk radars.
+
 ## License
 MIT License - see LICENSE.
 
