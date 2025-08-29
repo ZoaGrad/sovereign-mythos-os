@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rust
+target/
+Cargo.lock
+.cargo/
+
+# Private keys & secrets (sovereignty paranoia)
+*.key
+*.pem
+*.env
+secrets/
+
+# Logs
+*.log
+logs/
+/tmp/
+/temp/
+
+# AI/zk artifacts
+models/
+proofs/
+*.onnx
+*.pth
+.wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

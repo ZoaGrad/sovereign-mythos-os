@@ -1,0 +1,8 @@
+{
+  "name": "sovereignty-mythos-os",
+  "version": "0.0.1",
+  "description": "Sovereign MythOS: A decentralized OS blueprint for AI × Blockchain × Symbolic Recursion.",
+  "dependencies": {
+    "automerge": "^2.0.1"
+  }
+}

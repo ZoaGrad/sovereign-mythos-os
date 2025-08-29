@@ -1,0 +1,16 @@
+{
+  "$schema": "https://example.org/schemas/proof-envelope-v0.json",
+  "claim": {
+    "kind": "zkml.inference",
+    "model": "ipfs://bafy-model",
+    "input_commitment": "blake3:7a...c2",
+    "output_commitment": "blake3:91...ff"
+  },
+  "proof": {
+    "system": "ezkl",
+    "curve": "bn254",
+    "proof_cid": "ipfs://bafy-proof"
+  },
+  "verifier": "risc0|sp1|native",
+  "sig": "secp256k1:0x..."
+}

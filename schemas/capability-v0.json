@@ -1,0 +1,14 @@
+{
+  "$schema": "https://example.org/schemas/capability-v0.json",
+  "id": "cap:1dZq...Qm",
+  "principal": "did:key:z6Mkf...7V",
+  "resource": "ipfs://bafybeigdyr-model-QmHash",
+  "verbs": ["infer"],
+  "caveats": [
+    {"type": "timeBefore", "ts": "2025-12-31T23:59:59Z"},
+    {"type": "budget", "queries": 100},
+    {"type": "proof", "requires": ["zkml:ezkl:>=0.7.0"]}
+  ],
+  "issuer": "did:key:z6Mks...ab",
+  "signature": "eip191:0x..."
+}

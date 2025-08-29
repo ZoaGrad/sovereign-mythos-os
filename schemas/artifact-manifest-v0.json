@@ -1,0 +1,13 @@
+{
+  "$schema": "https://example.org/schemas/artifact-manifest-v0.json",
+  "cid": "bafybeigdyr...",
+  "type": "ml-model",
+  "format": "safetensors",
+  "sha256": "5b9c...f1",
+  "lineage": [
+    {"parent": "bafybeibase", "op": "fine-tune", "data": "ipfs://bafydata"},
+    {"attestation": "tdx:report:..."}
+  ],
+  "license": "OpenRAIL-M",
+  "consent": [{"vc": "vc:consent:hash", "scope": ["train","eval"]}]
+}

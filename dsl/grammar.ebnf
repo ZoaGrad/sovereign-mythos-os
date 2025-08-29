@@ -1,0 +1,9 @@
+intent      = "Sovereign", action, args, [policy] ;
+action      = "Infer" | "Train" | "Share" ;
+args        = "(" cid:CID { "," cid:CID } ")" ;
+policy      = " with " policykv { "," policykv } ;
+policykv    = ident "=" value ;
+CID         = "ipfs://" , ( ALNUM | ":" )+ ;
+
+// Type law: Infer(modelCID, inputCID) -> {caps: [infer:modelCID, read:inputCID], proofs:[zkml?]}.
+// This compiler emits ZCAP-LD/macaroons.
