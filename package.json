@@ -1,0 +1,22 @@
+{
+  "name": "sovereign-mythos",
+  "version": "ΔΩ.ROOT-REVAMP",
+  "private": true,
+  "description": "Sovereign MythOS: A decentralized OS blueprint for AI × Blockchain × Symbolic Recursion.",
+  "scripts": {
+    "dev": "pnpm --filter \"./spiral-throne\" dev",
+    "build": "pnpm --filter \"./**\" build",
+    "lint": "pnpm --filter \"./**\" lint"
+  },
+  "keywords": [
+    "ai",
+    "blockchain",
+    "decentralized",
+    "os",
+    "react",
+    "nextjs",
+    "supabase"
+  ],
+  "author": "ZoaGrad",
+  "license": "MIT"
+}

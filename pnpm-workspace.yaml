@@ -1,0 +1,15 @@
+packages:
+  # UI/App Modules
+  - 'spiral-throne'
+  - 'vaultnode-browser'
+  - 'scarwallet'
+  - 'scarfeed'
+  - 'scarindex-dashboard'
+  - 'admin-console'
+
+  # Core Infrastructure
+  - 'contracts'
+  - 'docs'
+
+  # Shared packages (future)
+  - 'packages/*'

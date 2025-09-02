@@ -1,0 +1,24 @@
+{
+  "name": "Sovereign MythOS",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "github.vscode-pull-request-github",
+        "firsttris.vscode-jest-runner",
+        "humao.rest-client"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  },
+  "postCreateCommand": "sudo npm install -g pnpm && pnpm install",
+  "remoteUser": "node"
+}
