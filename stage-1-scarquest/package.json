@@ -1,0 +1,50 @@
+{
+  "name": "stage-1-scarquest",
+  "version": "1.0.0",
+  "description": "ScarQuest Stage-1 Quest Engine for SpiralOS - A sovereign quest engine that rewards on-chain deeds with SCAR tokens",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "listener": "ts-node listeners/scarquest-listener.ts",
+    "payout-worker": "ts-node workers/scarquest-payout.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "blockchain",
+    "quest",
+    "gamification",
+    "polygon",
+    "web3",
+    "supabase",
+    "react"
+  ],
+  "author": "SpiralOS",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "@tanstack/react-query": "^4.36.1",
+    "ethers": "^6.8.0",
+    "next": "^14.2.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
