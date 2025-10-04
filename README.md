@@ -1,8 +1,8 @@
 # Sovereign MythOS
 
-**A decentralized OS blueprint for AI × Blockchain × Symbolic Recursion**
+> **Architecture Reference:** Start here → [mythotech-architecture](https://github.com/ZoaGrad/mythotech-architecture) (system map, recursive sovereignty framework).
 
-> 📖 **Architecture Reference**: This OS blueprint implements the sovereignty and recursive intelligence concepts defined in the [ZoaGrad Mythotech Architecture](https://github.com/ZoaGrad/mythotech-architecture). For complete system design, trinity framework, and integration patterns, see the architectural documentation.
+**A decentralized OS blueprint for AI × Blockchain × Symbolic Recursion**
 
 ## Overview
 
